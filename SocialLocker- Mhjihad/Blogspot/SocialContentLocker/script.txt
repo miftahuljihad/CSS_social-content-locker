@@ -1,0 +1,38 @@
+                                      ***Before </head>***
+                                      
+<script src='http://code.jquery.com/jquery-1.10.2.min.js' type='text/javascript'/>
+<script src='http://code.jquery.com/jquery-1.11.1.min.js' type='text/javascript'/>
+
+/* Updated 04072021 */
+                                       ***Before </head>***
+
+<link href='https://cdn.statically.io/gh/MHJIHAD-Tech/CSS_social-content-locker/main/SocialLocker-%20Mhjihad/Scripts/TricksTantraSCL.css' rel='stylesheet'/>
+<script src='https://cdn.statically.io/gh/MHJIHAD-Tech/CSS_social-content-locker/main/SocialLocker-%20Mhjihad/Scripts/TricksTantraSCL.js' type='text/javascript'/>
+<script type='text/javascript'>
+    
+//<![CDATA[
+$(function(){
+  $('.socialLocker .to-lock').sociallocker({
+    buttons: {order:["facebook-like","facebook-share"]},
+    facebook:{
+      like:{
+        url:"https://www.facebook.com/mhjihad.co/" //replace with your Facebook url
+      },
+      share:{
+        appId:850129929219649, //write your App ID,
+        url:location.href, //replace with your blog name
+      },
+    },
+    text: {
+      header: "LIKE & SHARE IT TO UNLOCK THIS CONTENT!",
+      message: "Please support for the Development of this Blog, Press one of the Buttons below to get the Full Content"
+    },
+    locker: {close: false, timer: 300,},
+    theme: "flat"
+  });
+});
+//]]>
+</script> 
+                                        *** Locked Content ***
+
+<article class="socialLocker">  <div class="to-lock" style="display:none;">    — ADD YOUR CONTENT HERE —   </div> </article>
