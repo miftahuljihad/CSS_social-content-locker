@@ -20,7 +20,7 @@ $(function(){
       },
       share:{
         appId:850129929219649, //write your App ID,
-        url:"location.href", //replace with your blog name
+        url:location.href, //replace with your blog name
       },
     },
     text: {
