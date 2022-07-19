@@ -27,7 +27,7 @@ $(function(){
       header: "LIKE & SHARE IT TO UNLOCK THIS CONTENT!",
       message: "Please support for the Development of this Blog, Press one of the Buttons below to get the Full Content"
     },
-    locker: {close: false, timer:0,},
+    locker: {close: false, timer:200,},
     theme: "flat"
   });
 });
