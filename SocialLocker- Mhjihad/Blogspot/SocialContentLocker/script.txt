@@ -16,7 +16,7 @@ $(function(){
     buttons: {order:["facebook-like","facebook-share"]},
     facebook:{
       like:{
-        url:"https://www.facebook.com/mhjihad.co/" //replace with your Facebook url
+        url:"https://www.facebook.com/miftahul.jihad.7" //replace with your Facebook url
       },
       share:{
         appId:850129929219649, //write your App ID,
